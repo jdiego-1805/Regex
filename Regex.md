@@ -14,7 +14,6 @@ This will go over how the "matching an HTML tag' regex and it's components are u
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
-- [Flags](#flags)
 - [Character Escapes](#character-escapes)
 
 ## Regex Components
@@ -29,9 +28,11 @@ The different type of quantifiers that are on the html tags are the (`*, ?, and 
 
 ### Grouping Constructs
 
-The groups that are used in the html tag are (`[a-z]`) that is used to match a character from within a specified range.
+The groups that are used in the html tag are `(...)` that is used to capture groups in the enclosed pattern.
 
 ### Bracket Expressions
+
+The (`[a-z]`) bracket expressions matches any lowercase letter between the specified element, in this case a-z.
 
 ### Character Classes
 
@@ -39,10 +40,11 @@ The character classes include (`\s`) which matches a whitespace character.
 
 ### The OR Operator
 
-### Flags
+The (`|`) is the OR operator that separates alternative patterns.
 
 ### Character Escapes
 
+The character escapes, (`\<, \/`), matches the literal character `<` and `/`.
+
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
